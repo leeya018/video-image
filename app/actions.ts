@@ -58,7 +58,7 @@ async function generateImageQuery(sentence: string): Promise<string> {
     model: openai("gpt-3.5-turbo"),
     prompt: prompt,
     temperature: 0.7,
-    max_tokens: 20,
+    maxTokens: 20,
   });
 
   return text.trim();

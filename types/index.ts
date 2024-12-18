@@ -2,7 +2,7 @@ export interface TranscriptionSegment {
   text: string;
   start: number;
   end: number;
-  image?: string;
+  image: string;
 }
 
 export interface TranscriptionResult {

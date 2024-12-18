@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { TranscriptionResult, TranscriptionSegment } from "@/types";
+import { TranscriptionResult } from "@/types";
 import { transcribeAudio, fetchPexelsImage } from "./actions";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
